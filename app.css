@@ -1,0 +1,109 @@
+body {
+  padding-top: 0px;
+  padding-bottom: 40px;
+}
+
+.footer-wrapper {
+    
+}
+
+.fb-like {
+  margin-top: 26px;
+}
+
+.masthead {
+  margin: 10px 0;
+  height: 80px;
+}
+.brand {
+  margin-top: 20px;
+  color: #555;
+}
+
+.masthead .brand {
+ display: inline-block;
+}
+
+.container-narrow {
+  margin: 0 auto;
+  max-width: 700px;
+}
+.jumbotron-wrapper {
+  background: #fff url("lnd.jpg") no-repeat 50% 56%;
+  padding: 20px;
+}
+
+.container-narrow > hr {
+  margin: 20px 0;
+}
+.signup {
+  margin-top: 20px;
+  margin-bottom: -20px;
+  text-align: center;
+}
+.jumbotron {
+  margin: 70px 0;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-size: 72px;
+  line-height: 1;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+.marketing {
+  margin: 10px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+.jumbotron-wrapper {
+  color: #EEE;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.disclaimer {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.container-narrow > hr {
+margin: 10px 0;
+}
+
+@media (max-width: 767px) {
+  .jumbotron h1 {
+    font-size: 33px;
+  }    
+  .masthead {
+    padding-left: 10px;
+  }
+  .jumbotron {
+    margin: 10px 0;
+  }
+  .container-body, .footer-wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 340px) {  
+  .signup {
+    margin-top: 15px;
+    margin-bottom: -20px;
+  }
+  .container-body, .footer-wrapper {
+    max-width: 280px !important;
+  }
+  #email-input {
+    width:100px;
+  }
+  .signup {
+    margin-left:5px;
+  }
+  .fb-like {
+    display:none;
+  }
+}
