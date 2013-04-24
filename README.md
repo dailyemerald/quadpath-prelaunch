@@ -1,1 +1,1 @@
-(quadpath.com)[https://quadpath.com]
+[quadpath.com](https://quadpath.com)
